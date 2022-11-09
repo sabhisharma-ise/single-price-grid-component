@@ -1,0 +1,127 @@
+body {
+    background-color: whitesmoke;
+    font-family: Karla;
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    color: hsl(204, 43%, 93%);
+    margin-left: -1rem;
+    opacity: 90%;
+}
+
+/* Price */
+
+.price-tag {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.price-desc {
+    opacity: 90%;
+}
+
+.per-month {
+    opacity: 50%;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+
+
+.sign-up-button {
+    margin-top: 7%;
+    background: hsl(71, 73%, 54%);
+}
+
+/* Headings */
+
+.main-heading1 {
+    padding-bottom: 2%;
+    color: hsl(179, 62%, 43%);
+    font-weight: bold;
+}
+
+.main-heading2 {
+    padding-bottom: 0.7%;
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+}
+
+.main-heading3 {
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+.main-heading4 {
+    padding-left: 5%;
+    margin-bottom: 0;
+}
+
+
+/* Description */
+
+.desc {
+    color: hsl(218, 22%, 67%);
+    opacity: 90%;
+}
+
+/* Sections */
+
+.top-section {
+    background-color: white;
+    margin: 7% 29% 0 29%;
+    padding: 3% 3%;
+    border-radius: 10px 10px 0 0;
+}
+
+.bottom1 {
+    background-color: hsl(179, 62%, 43%);
+    margin-left: 57.4%;
+    margin-right: 0;
+    color: white;
+    padding: 5%;
+    border-bottom-left-radius: 10px;
+}
+
+.bottom2 {
+    background-color: #47B5FF;
+    font-size: 90%;
+    margin-right: 57.4%;
+    margin-left: 0;
+    color: white;
+    padding: 2.25%;
+    border-bottom-right-radius: 10px;
+}
+
+/* Containers */
+
+.container-fluid {
+    margin: 0 auto;
+}
+
+/* Grid Layout */
+
+.first-column {
+    padding-right: 0;
+}
+
+.second-column {
+    padding-left: 0;
+}
+
+@media (max-width: 375px) {
+    .bottom1 {
+        position: relative;
+        right: 30%;
+    }
+    .bottom2 {
+        position: relative;
+        left: 30%;
+    }
+}
